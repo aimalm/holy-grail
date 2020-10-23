@@ -12,7 +12,6 @@ header, footer{
 }
 
 .main_container {
-    background-color: lightpink;
     display: flex;
     min-height: 700px;
     
@@ -52,7 +51,4 @@ img {
      .main_container {
          flex-direction: column;
      }
-
-
-
 }

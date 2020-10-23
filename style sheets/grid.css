@@ -1,0 +1,56 @@
+body {
+    background-color: burlywood;µ
+    margin: 20px;
+}
+
+header, footer{
+    background-color: cornflowerblue;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+}
+
+.main_container {
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    grid-auto-rows: minmax(300px, auto)
+
+
+    
+}
+
+
+nav {
+    background-color: grey;
+    padding: 15px;
+    min-width: 180px;
+}
+li {
+    color: black;
+    list-style-type: none;
+}
+
+
+main {
+    background-color: lightgoldenrodyellow;
+    padding: 15px;
+}
+
+
+aside {
+    background-color: burlywood;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+
+
+
+ @media (max-width: 680px){
+     .main_container {
+         display: grid;
+        
+}
